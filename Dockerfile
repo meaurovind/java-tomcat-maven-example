@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM sciensa2/docker-java8
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y curl && \
