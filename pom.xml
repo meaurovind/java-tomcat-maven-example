@@ -41,4 +41,17 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- nexus server details for release -->
+    <url>http://35.239.170.233:8081/repository/maven-releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- nexus server details for snapshots-->
+    <url>http://35.239.170.233:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
+</project>
 </project>
