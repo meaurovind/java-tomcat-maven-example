@@ -2,7 +2,7 @@ node(){
 stage ("clone"){
 }
 stage ("build"){
-  sh """ cd $WORKSPACE
+  sh """ 
          mvn deploy
          """
 }
