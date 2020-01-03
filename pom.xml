@@ -45,12 +45,12 @@
   <repository>
     <id>releases</id>
     <!-- nexus server details for release -->
-    <url>http://http://34.69.230.245:8081/repository/maven-releases/</url>
+    <url>http://34.69.16.42:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- nexus server details for snapshots-->
-    <url>http://http://34.69.230.245:8081/repository/maven-snapshots/</url>
+    <url>http://34.69.16.42:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
